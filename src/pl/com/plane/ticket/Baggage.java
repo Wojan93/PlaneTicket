@@ -7,6 +7,7 @@ public class Baggage extends Passenger {
 	private float height;
 	private float width;
 	private float length;
+	private Passenger baggageOwner;
 	
 	Baggage(float h,float w, float l){
 		height = h;
@@ -14,11 +15,12 @@ public class Baggage extends Passenger {
 		length = l;
 		quantityOfRegisteredBaggage = 1;
 	}
-	Baggage(float h,float w, float l, byte q){
+	Baggage(float h,float w, float l, byte q, Passenger passenger){
 		height = h;
 		width = w;
 		length = l;
 		quantityOfRegisteredBaggage = q;
+		baggageOwner = passenger;
 	}
 	
 }

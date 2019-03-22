@@ -10,10 +10,7 @@ public class Airport {
 	 city = "Warsaw";
 	 nameOfAirport = "Chopin Airport";
  }
-	Airport(String c)
-	{
-		city = c;
-	}
+
 	Airport(String c,String n)
 	{
 		city = c;

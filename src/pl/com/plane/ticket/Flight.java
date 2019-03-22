@@ -16,4 +16,11 @@ public class Flight {
 		departureAirport = new Airport();
 		arrivalAirport = new Airport();
 	}
+	Flight(String name, String dateD, String dateA, Airport depAirport, Airport arrAirport){
+		nameOfPilot = name;
+		dateOfDeparture = dateD;
+		dateOfArrival = dateA;
+		departureAirport = depAirport;
+		arrivalAirport = arrAirport;
+	}
 }
